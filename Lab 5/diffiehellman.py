@@ -1,3 +1,4 @@
+import random
 def exp_rapida(base, exponente, modulo):
 	x = 1
 	y = base % modulo
@@ -11,3 +12,11 @@ def exp_rapida(base, exponente, modulo):
 			b = b - 1
 	return x
 
+def PandG():
+        L=[]
+        pri=[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89,97]
+        P= random.choice(primos)
+        G= random.randrange(1,P)
+        L.append(P)
+        L.append(g)
+        return L
